@@ -1,0 +1,94 @@
+@media (max-width: 1110px) {
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .main .new-goods .container .product {
+        justify-content: space-around;
+    }
+
+    .main .new-goods .container .product-item {
+        margin: 0px 5px 40px;
+    }
+
+    .main .our-brands .container .brands {
+        justify-content: space-around;
+    }
+
+    .main .footer-top .container div:first-child {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main .footer-top .container div:not(:first-child) {
+        width: 48%;
+    }
+
+    .container-title {
+        font-size: 30px;
+    }
+
+    .brands .brands-item {
+        width: 48%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-bott .container div .nav-item .nav-link a {
+        font-size: 12px;
+        padding: 23px;
+    }
+}
+
+@media (max-width: 950px) {
+    .first-screen {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+    .main .collection-2021 .new-collection {
+        padding: 400px 0 100px;
+    }
+
+    .main .collection-2018 .season_description {
+        padding-top: 45px;
+    }
+
+    .main .collection-2018 .season_description div p {
+        margin-top: 10px;
+    }
+
+    .main .new-goods .container-title {
+        margin-top: 65px;
+    }
+
+    .main .new-goods .container {
+        padding-bottom: 50px;
+    }
+
+    .main .footer-top .container {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 850px) {
+    .main .collection-2021 .new-collection h2 {
+        font-size: 28px;
+    }
+
+    .main .collection-2018 .season_img {
+        height: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-bott .container div .nav-item {
+        display: none;
+    }
+
+    .header-bott .container .nav  .burger {
+        display: block;
+    }
+}
